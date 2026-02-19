@@ -179,3 +179,17 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ambiente Virtual
+venv/
+__pycache__/
+
+# Variáveis de Ambiente e Segredos 
+.env
+*.json
+client_secret.json
+credentials.json
+
+# Arquivos de dados locais 
+*.xlsx
+*.csv
