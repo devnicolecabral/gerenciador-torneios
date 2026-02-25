@@ -6,8 +6,8 @@ dados_simulados = {
     "participants": [
         {"username": "TLV", "status": "Played", "score": 20},
         {"username": "FakerBR", "status": "NoShow", "score": 0}, # W.O.
-        {"username": "Megalodon", "status": "Played", "score": 15},
-        {"username": "Soneca", "status": "NoShow", "score": 0} # Outro W.O.
+        {"username": "GLP", "status": "Played", "score": 15},
+        {"username": "GLB", "status": "NoShow", "score": 0} # Outro W.O.
     ]
 }
 
