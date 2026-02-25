@@ -11,7 +11,7 @@ def pegar_cracha_cm():
 
     # Endereço da CM
 
-    url_auth = "https://publicapi.challengermode.com/v1/auth/access_keys"
+    url_auth = "https://publicapi.challengermode.com/mk1/v1/auth/access_keys"
 
     # Enviando a RK no formato que eles pedem (JSON)
     dados = {

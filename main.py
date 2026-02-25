@@ -18,7 +18,7 @@ bot = commands.Bot(command_prefix="sam!", intents=intents)
 @bot.event
 async def on_ready():
     print(f"Sucesso! O bot {bot.user.name} está pronto para uso.")
-    print("--------------------------------------------------")
+    print("-" * 50)
 
 # Comando de teste
 @bot.command()
