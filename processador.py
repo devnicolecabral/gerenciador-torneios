@@ -11,7 +11,7 @@ dados_simulados = {
     ]
 }
 
-def processar_torneio(dados):
+def processar_torneio(dados, nome_arquivo = "jogadores_aprovados.csv"):
     print("Iniciando o processamento dos dados...")
 
     df = pd.DataFrame(dados["participants"])
@@ -20,6 +20,8 @@ def processar_torneio(dados):
     print(df)
 
     df_aprovados = df[df["Status"] != "NoShow"]
+
+    df_aprovados.to_csv(nome_arquivo, index=False)
 
     print("\n Taela limpa (Pronta pra riot - Sem W.O):")
     print(df_aprovados)
